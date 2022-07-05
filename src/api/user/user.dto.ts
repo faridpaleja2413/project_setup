@@ -13,21 +13,27 @@ import {
 } from "class-validator";
 
 export class UsersBody {
+  @IsNotEmpty()
   @IsString()
   fullName: string;
 
-  @IsEmail()
+  @IsNotEmpty()
+  @IsString()
   email: string;
 
+  @IsNotEmpty()
   @IsString()
   password: string;
 
+  @IsNotEmpty()
   @IsString()
   countryCode: string;
 
+  @IsNotEmpty()
   @IsNumber()
   mobileNumber: number;
 
+  @IsNotEmpty()
   @IsBoolean()
   isActive: boolean;
 }

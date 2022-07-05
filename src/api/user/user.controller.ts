@@ -72,7 +72,7 @@ export default class UserController {
    *
    * @returns user saved data
    */
-  @UseBefore(checkAuth)
+  // @UseBefore(checkAuth)
   @Post("/add", { transformRequest: true })
   async getUser(
     @Req() req: Request,
