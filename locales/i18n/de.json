@@ -1,0 +1,8 @@
+{
+  "success": {
+    "USR-001": "User created successfully - de"
+  },
+  "error": {
+    "USR-001": "Something went wrong...!! - de"
+  }
+}

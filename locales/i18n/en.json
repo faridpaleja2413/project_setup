@@ -1,0 +1,13 @@
+{
+  "success": {
+    "USR-001": "User List",
+    "USR-002": "User created successfully",
+    "USR-003": "User updated successfully",
+    "USR-004": "User deleted successfully",
+    "USR-005": "User restore successfully",
+    "USRA-001": "Successfully logged In"
+  },
+  "error": {
+    "USR-001": "Something went wrong...!!"
+  }
+}

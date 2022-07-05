@@ -1,0 +1,25 @@
+{
+    "restartable": "rs",
+    "verbose": true,
+    "ext": "js, ts, json",
+    "colours": true,
+    "stdin": true,
+    "stdout": true,
+    "ignoreRoot": [".git"],
+    "signal": "SIGUSR2",
+    "runOnChangeOnly": false,
+    "env": {
+        "NODE_ENV": "local"
+    },
+    "watch": [
+        "src",
+        "queue",
+        ".env",
+        "node_modules",
+        "package.json"
+    ],
+    "ignore": [
+        "logs"
+    ],
+    "watchOptions": {}
+}
